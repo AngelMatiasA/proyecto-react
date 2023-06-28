@@ -1,0 +1,7 @@
+.Pie-de-pagina{
+    background-color: rgb(0, 32, 59);
+    grid-area: footer;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}

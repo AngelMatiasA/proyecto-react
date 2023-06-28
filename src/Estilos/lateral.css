@@ -1,0 +1,24 @@
+.lateral{
+    background-color: rgb(2, 33, 80);
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: lateral;
+}
+.lateral figure{
+    width: 80%;
+}
+.lateral figure img{
+    width: 100%;
+}
+.lateral ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}

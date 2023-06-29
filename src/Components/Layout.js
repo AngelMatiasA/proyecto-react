@@ -38,7 +38,7 @@ const Layout = () => {
                  </li>
                  <li> 
                 <a>
-                <Link to="/Mensajes">Mensajes</Link>
+                <Link to="/Mensajes">Contactanos</Link>
                 </a>
                  </li>
                 

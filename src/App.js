@@ -23,7 +23,7 @@ function App() {
   
   return (
     <div className='App'>
-      <Header/>
+      <Header titulo={"Programacion 3"}/>
       <BrowserRouter>
       {/* esse browser router era el q estaba en router app
       lo pongo aca sino no andan los link del layout q se carga siempre*/}

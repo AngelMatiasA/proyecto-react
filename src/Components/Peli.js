@@ -16,7 +16,7 @@ const Peli = ({ apiURL }) => {
 
   useEffect(() => {
     axios.get(apiURL).then(response => setMovies(response.data.results));
-  }, [apiURL]);
+  }, [movies]);
 
   return ( 
     <>

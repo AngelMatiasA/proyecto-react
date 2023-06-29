@@ -40,6 +40,10 @@ function Inicio() {
         pertenece={true}
         nombre='Ivana Lozano'
         />
+         <Item
+        pertenece={true}
+        nombre='Santiago Saleme'
+        />
         </ul>
         </main> 
         <Lateral/>

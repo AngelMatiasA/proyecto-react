@@ -5,16 +5,16 @@ import Lateral from './Lateral';
 const FaqImp = () => {
   const questions = [
     {
-      question: '¿Cuál es la capital de Francia?',
-      answer: 'La capital de Francia es París.'
+      question: '¿Cuál es el horario de atencion?',
+      answer: 'De lunes a viernes de 8 a 21.'
     },
     {
-      question: '¿Cuál es la moneda de Japón?',
-      answer: 'La moneda de Japón es el yen.'
+      question: '¿Que dias hay promocion?',
+      answer: 'Todos los martes 30%.'
     },
     {
-      question: '¿Cuál es el idioma oficial de Brasil?',
-      answer: 'El idioma oficial de Brasil es el portugués.'
+      question: '¿Cuando son las fechas de estrenos?',
+      answer: 'Todos los jueves a las 20 hrs.'
     }
   ];
 

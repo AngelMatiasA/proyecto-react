@@ -11,6 +11,7 @@ const PeliImp = () => {
    
       
       <Peli apiURL={apiURL} />
+      <Lateral/>
       
      
     

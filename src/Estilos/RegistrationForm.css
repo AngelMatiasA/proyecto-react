@@ -1,0 +1,51 @@
+.FormContenedor{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1a1826, #413b5e);
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.FormContenedor H2{
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center; 
+
+}
+.FormContenedor Input {
+    border: 1px solid #413b5e;
+    width: 90%;
+    height: 25px;
+    background: none;
+    color: #f1f1f1;
+    margin-top: 15px;
+  }
+  .Form div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Form div button{
+    width: 70%;
+  }
+  .FormContenedor button{
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid #7060c0;
+    margin-top: 10px;
+    color: #f1f1f1;
+  }
+  .FormContenedor button:hover{
+    cursor: pointer;
+  }

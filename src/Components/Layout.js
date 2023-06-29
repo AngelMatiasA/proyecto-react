@@ -15,11 +15,7 @@ const Layout = () => {
                 </a>
                 </li>
 
-                <li> 
-                <a>
-                <Link to="/Galeria">Galeria</Link>
-                </a>
-                 </li>
+                
 
                  <li> 
                 <a>
@@ -41,6 +37,18 @@ const Layout = () => {
                 <Link to="/Mensajes">Contactanos</Link>
                 </a>
                  </li>
+                 <li> 
+                <a>
+                <Link to="/Articulos">Snacks</Link>
+                </a>
+                 </li>
+                 <li> 
+                <a>
+                <Link to="/Logueo">Logueo</Link>
+                </a>
+                 </li>
+
+                
                 
                 
                

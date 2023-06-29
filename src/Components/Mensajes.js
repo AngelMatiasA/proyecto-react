@@ -1,5 +1,7 @@
-import '../hojas-de-estilos/Mensajes.css';
+import '../Estilos/Mensajes.css';
 import {useState, useEffect} from "react";
+import '../Estilos/Inicio.css';
+import Lateral from './Lateral';
 
 
 function Mensajes (){
@@ -42,6 +44,8 @@ function Mensajes (){
 
 
     return (
+        <>
+        <main className='Contenido-principal'>
         <center>
         <div className="container">
             <form id="miFormulario"onSubmit={botonGuardar}>
@@ -57,6 +61,11 @@ function Mensajes (){
 
         </div>
         </center>
+        </main>
+        <Lateral/>
+        </>
+
+       
     )
 
 

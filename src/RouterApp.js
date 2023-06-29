@@ -8,6 +8,7 @@ import './Estilos/Inicio.css';
 import FaqImp from "./Components/FaqImp";
 import Pelis from "./Components/Pelis";
 import PeliImp from "./Components/PeliImp";
+import Mensajes from "./Components/Mensajes";
 
 const RouterApp = () => {
     const Home = () => <h1>hoome</h1>;
@@ -25,6 +26,7 @@ const RouterApp = () => {
             <Route path="AcercaDe" element={<AcercaDe/> }></Route>
             <Route path="Faqs" element={<FaqImp/> }></Route>
             <Route path="Pelis" element={<PeliImp/> }></Route>
+            <Route path="Mensajes" element={<Mensajes/> }></Route>
             
 
             </Routes>

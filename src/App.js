@@ -22,7 +22,7 @@ function App() {
   }
   
   return (
-    <div className={clasName}>
+    <div className='App'>
       <Header/>
       <BrowserRouter>
       {/* esse browser router era el q estaba en router app

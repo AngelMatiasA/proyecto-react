@@ -21,7 +21,7 @@ function Inicio() {
     
     return(
         
-       
+        /*cada componente tiene solo un main*/
        <>
         <main className='Contenido-principal'>
             <h2>integrantes</h2>

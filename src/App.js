@@ -7,13 +7,22 @@ import Layout from './Components/Layout';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import { Link } from 'react-router-dom';
-import Inicio from './Components/Inicio';
+import Inicio from './Components/Inicio'; 
+import './Peliculas.css'
 
 
 
 function App() {
+  const pathname = window.location.pathname;
+  let clasName = "App";
+  if(pathname.endsWith('/Pelis')){ 
+     clasName = "Peliculas";
+  }else{
+    clasName = "App";
+  }
+  
   return (
-    <div className="App">
+    <div className={clasName}>
       <Header/>
       <BrowserRouter>
       {/* esse browser router era el q estaba en router app

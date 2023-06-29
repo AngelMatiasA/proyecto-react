@@ -31,6 +31,11 @@ const Layout = () => {
                 <Link to="/Faqs">Preguntas frecuentes</Link>
                 </a>
                  </li>
+                 <li> 
+                <a>
+                <Link to="/Pelis">Pelis</Link>
+                </a>
+                 </li>
                 
                 
                

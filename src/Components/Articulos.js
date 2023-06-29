@@ -8,6 +8,7 @@ import gaseosa from '../img/gaseosas.jpg'
 import pochoclos from '../img/pochoclos.jpg'
 import Lateral from './Lateral'
 import '../Estilos/Inicio.css';
+import '../Estilos/Articulos.css';
 
 const articulos = [
     {

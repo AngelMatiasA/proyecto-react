@@ -35,7 +35,7 @@ function App() {
   
   return (
     <div className='App'>
-      <Header titulo={username ? username : 'Invitado'}/>
+      <Header titulo={'BIENVENIDO'}/>
       <BrowserRouter>
       {/* esse browser router era el q estaba en router app
       lo pongo aca sino no andan los link del layout q se carga siempre*/}

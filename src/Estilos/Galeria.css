@@ -1,0 +1,150 @@
+
+/**** CSS cel ****/
+
+@media screen and (min-width: 320px) {
+/* **************************** 
+Inicio de galeria para cel  */ 
+
+
+#galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+} 
+
+#galeria figure  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%; 
+    background-color: aqua;
+} 
+
+#galeria figure img {
+    width: 100%;
+} 
+
+#galeria figure figcaption{
+    text-align: center; 
+    background-color: brown;
+    color: beige; 
+    font-weight: bold; 
+    font-size: 1rem;
+}
+}
+@media screen and (min-width: 768px) {
+
+    /* ************************** 
+     ********************* 
+     inicio de galeria para tablet */ 
+
+     #galeria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        /* align-items: center;  */ 
+        justify-content: center; 
+        background-color: rgb(16, 218, 212);
+    } 
+    
+    #galeria figure  {
+        display: flex;
+        flex-direction: column;
+        
+        width: 45%; 
+        background-color: aqua;
+        margin: .5rem;
+    } 
+    
+    #galeria figure img {
+        width: 100%;
+    } 
+    
+    #galeria figure figcaption{
+        text-align: center; 
+        background-color: brown;
+        color: beige; 
+        font-weight: bold; 
+        font-size: 1.4rem;
+    }
+
+} 
+
+/* *************************** 
+    ************ 
+    Inicio galeria para pc */
+/**** CSS PC ****/
+
+@media screen and (min-width: 1024px) {
+    
+    #galeria {
+    
+        padding-top: 3rem; 
+        padding-bottom: 3rem;
+        /* align-items: center;  */ 
+        justify-content: center; 
+        background-color: rgb(39, 2, 60);
+    } 
+    
+    #galeria figure  {
+   
+        
+        width: 28%; 
+        background-color: rgb(238, 238, 238);
+        margin: 1rem;
+        border-radius: .9rem;
+        border: solid .2rem whitesmoke;
+
+    } 
+    
+    #galeria figure img {
+        width: 100%;
+        border-radius: .9rem .9rem 0 0;
+    } 
+    
+    #galeria figure figcaption{
+      
+        border-radius: 0 0 .9rem .9rem;
+
+    } 
+
+    #galeria figure:hover{
+        width: 30%; 
+        margin: 0;
+        transition: .9s;
+       
+
+    }
+    #galeria img:hover{
+        transition: .9s;
+        opacity: 85%;
+
+    }
+
+}
+@media all and (min-width: 1440px) {
+
+    #galeria figure  {
+   
+        
+        width: 35%; 
+   
+
+    } 
+
+    #galeria figure:hover{
+        width: 40%; 
+        margin: 0;
+        transition: .9s;
+       
+
+    }
+    #galeria img:hover{
+        transition: .9s;
+        opacity: 85%;
+
+    }
+
+}

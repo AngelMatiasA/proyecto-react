@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Components/Layout';
 import Inicio from "./Components/Inicio";
 import AcercaDe from "./Components/AcercaDe";
+import Galeria from "./Components/Galeria";
 import './Estilos/Inicio.css';
 
 const RouterApp = () => {
@@ -17,7 +18,7 @@ const RouterApp = () => {
             <Route path="/" element={<Layout />}/>
   
             <Route path="home" element={<Inicio/>}></Route>
-            <Route path="pets" element={Home }></Route>
+            <Route path="Galeria" element={<Galeria/> }></Route>
             <Route path="AcercaDe" element={<AcercaDe/> }></Route>
             
 

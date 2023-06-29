@@ -17,7 +17,7 @@ const Layout = () => {
 
                 <li> 
                 <a>
-                <Link to="/pets">Pets</Link>
+                <Link to="/Galeria">Galeria</Link>
                 </a>
                  </li>
 

@@ -43,8 +43,7 @@ function Inicio() {
         </ul>
         </main> 
         <Lateral/>
-        {/* <Footer/>
-         */}
+       
          </>
    
     );

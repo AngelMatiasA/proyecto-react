@@ -26,6 +26,11 @@ const Layout = () => {
                 <Link to="/AcercaDe">Acerca de Nosotros</Link>
                 </a>
                  </li>
+                 <li> 
+                <a>
+                <Link to="/Faqs">Preguntas frecuentes</Link>
+                </a>
+                 </li>
                 
                 
                

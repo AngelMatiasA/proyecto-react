@@ -1,0 +1,15 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+  }

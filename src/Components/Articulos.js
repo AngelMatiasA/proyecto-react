@@ -49,11 +49,11 @@ function Articulos(){
         <>
         <main className='Contenido-principal'>
 
-        <div className='container d-flex justify-content-center aling-items-center bg-info'>
-            <div className='row'>
+        <div className='contArticulos'>
+            <div className='divArticulos'>
                 {
                     articulos.map(card => (
-                        <div className='col-md-1' key= {card.id}>
+                        <div  key= {card.id}>
                             <Card
                             titulo = {card.titulo} imagen= {card.imagen}/>
 
